@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // Define the API base URL
-const API_URL = 'http://localhost:5000/api';
+// const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://meditrack-backend-gly4.onrender.com';
 console.log('Using API URL:', API_URL);
 // Create an axios instance with default config
 const api = axios.create({
